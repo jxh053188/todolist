@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/todo-api', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost/todo-api' , {useNewUrlParser: true, useUnifiedTopology: true});
 
 mongoose.Promise = Promise;
 
